@@ -1,0 +1,26 @@
+{
+  "name": "demo-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --coverage",
+    "build": "echo 'build success' && mkdir -p build && echo 'done' > build/index.html"
+  }
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^30.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "eslint": "^9.38.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.4.0",
+    "typescript-eslint": "^8.46.2"
+  }
+}
